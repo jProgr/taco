@@ -1,2 +1,2 @@
- docker run --rm -p 8080:8080 -v "$PWD":/usr/src/taco -w /usr/src/taco openjdk:8 ./mvnw spring-boot:run
- ./mvnw compile
+docker run --rm -p 8080:8080 -v "$PWD":/usr/src/taco -w /usr/src/taco openjdk:8 ./mvnw spring-boot:run
+./mvnw compile
